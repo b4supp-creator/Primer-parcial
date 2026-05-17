@@ -1,24 +1,22 @@
-/* Basic CSS reset */
 * {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
-
 body {
-  font-family: system-ui, sans-serif;
-  line-height: 1.5;
-  background: #f5f5f5;
-  color: #222;
+    background-image: url('img/fondo.png'); 
+    background-repeat: repeat-x repeat-y ;
+    
+    
+    /* La fuente es Barlow  */
+    @import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,400;0,700;1,400&display=swap' );
+    font-family: 'Barlow', sans-serif;
+    font-size: 32px; 
+    margin: 0;
+    padding: 0;
+};
+h1 {
+    text-align: center;
+    color:aliceblue
 }
-
-.container {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 1rem;
-}
-
-button,
-a {
-  cursor: pointer;
+p {
+    text-align: justify;
+    margin: 5px;}
+    background-color: rgb(5, 128, 2);
 }
